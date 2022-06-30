@@ -1,5 +1,5 @@
 * {
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 0;
     padding-left: 0;
 }
@@ -48,6 +48,12 @@ body {
 
 
 /* General styles */
+section:nth-child(2n) {
+    background-color: #fff;
+}
+section:nth-child(2n+1) {
+    background-color: #e8e8e8;
+}
 .text-center {
     text-align: center;
 }
@@ -59,14 +65,42 @@ body {
 
 .horizontal-list li {
     display: inline-block;
-    /* padding: 0 1rem 0 1rem; */
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
 }
 
 .horizontal-list li a {
     text-decoration: none;
+    font-size: 0.7rem;
 
 }
 
 .nav-bar a{
     color: white;
+}
+
+
+/* about */
+#about {
+    /* display: block; */
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#my-image img{
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 6px lightgray;
+    margin-top: -94px;
+}
+
+#about-text {
+    color: gray;
+    /* padding: 0 1rem; */
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+
 }
