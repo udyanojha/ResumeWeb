@@ -1,0 +1,72 @@
+* {
+    font-size: 24px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#body-header {
+    height: 60vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    /* background-image: url(https://wallpaperaccess.com/full/832357.jpg); */
+    background-size: cover;
+    opacity: 0.8;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 0.5rem;
+}
+
+
+/* header */
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#name h1{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i {
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 4px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+/* General styles */
+.text-center {
+    text-align: center;
+}
+
+.horizontal-list {
+    list-style: none;
+    
+}
+
+.horizontal-list li {
+    display: inline-block;
+    /* padding: 0 1rem 0 1rem; */
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+
+}
+
+.nav-bar a{
+    color: white;
+}
