@@ -239,7 +239,9 @@ section:nth-child(2n + 1) {
 .mb75px {
     margin-bottom: 75px;
 }
-
+.mb50px {
+    margin-bottom: 50px;
+}
 
 
 /*common color classes */
@@ -299,6 +301,7 @@ section:nth-child(2n + 1) {
 #contact {
     background-image: linear-gradient(to top right, #2857a4,#403066);
     color: white;
+    width: 100%;
 }
 #contact span {
     color: white;
@@ -306,12 +309,77 @@ section:nth-child(2n + 1) {
 #contact-container {
     padding-bottom: 2rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    width: 75vw;
+}
+#contact-details {
+    margin-left: 6%;
+    color: #d9dcdd
 }
 #contact-details p{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    width: 100%;
 }
+#contact h6 {
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
 .contact-info {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 0 0 1rem 0;
+}
+.contact-info i {
+    padding-right: 0.6rem;
+}
+
+#contact-form input, textarea {
+    background: transparent;
+    color: #d9dcdd;
+    width: 90%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    line-height: 1.6rem;
+    border: 0 solid;
+    border-bottom: 2px solid;
+    font-size: 0.9rem;
+}
+#contact-form {
+    width: 50%;
+}
+#contact-form button {
+    background: transparent;
+    color: #fff;
+    padding: 0.8rem 2.5rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.1rem;
+    border: 2px solid white;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#form-detail{
+    display: flex;
+}
+
+
+#contact-details {
+    width: 35%;
+}
+#contact-details span p {
+    margin-left: 0.6rem;
+}
+
+#contact .social-icons i {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    margin: 3rem 0;
 }
 /* #2857a4' and rightmost color is '#403066 */
