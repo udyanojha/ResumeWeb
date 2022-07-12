@@ -294,3 +294,24 @@ section:nth-child(2n + 1) {
     width: 60%;
 }
 
+
+/* Contact */
+#contact {
+    background-image: linear-gradient(to top right, #2857a4,#403066);
+    color: white;
+}
+#contact span {
+    color: white;
+}
+#contact-container {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#contact-details p{
+    font-size: 1rem;
+}
+.contact-info {
+    font-size: 1rem;
+}
+/* #2857a4' and rightmost color is '#403066 */
