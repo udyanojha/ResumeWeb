@@ -383,3 +383,57 @@ section:nth-child(2n + 1) {
     margin: 3rem 0;
 }
 /* #2857a4' and rightmost color is '#403066 */
+
+/* work ex */
+#work-container {
+    position: relative;
+    border: 2px solid black;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.work {
+    border: 2px solid black;
+    position: relative;
+    width: 40%;
+    min-height: 150px;
+    margin: 5px;
+}
+.work:nth-child(2n) {
+    margin: 5px 5px 5px auto;
+}
+.track {
+    position: absolute;
+    height: 75%;
+    top: 12.5%;
+    left: 50%;
+    width:0;
+    border: 2px dotted teal;
+}
+#plane {
+    position: sticky;
+}
+
+.point1, .point2, .point3, .point4 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 49.5%;
+    background-color: #b9b9b9;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.point1 {
+    margin-top: 10%;    
+}
+.point2 {
+    margin-top: 420px;    
+}
+.point3 {
+    margin-top: 580px;    
+}
+.point4 {
+    margin-top: 750px;    
+}
+
+/* psuedo */
