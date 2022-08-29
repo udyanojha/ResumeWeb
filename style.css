@@ -385,7 +385,7 @@ section:nth-child(2n + 1) {
 /* #2857a4' and rightmost color is '#403066 */
 
 /* work ex */
-#work-container {
+/* #work-container {
     position: relative;
     border: 2px solid black;
     width: 75%;
@@ -418,7 +418,63 @@ section:nth-child(2n + 1) {
 
 .work:nth-child(2n)::after {
     left: -23.7%;
+} */
+
+/* Work Experience */
+
+.timeline {
+    position: relative;
+    width: 75%;
 }
+
+.timeline-box {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -12%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -8.5%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+
+
 
 .track {
     position: absolute;
@@ -438,32 +494,65 @@ section:nth-child(2n + 1) {
     z-index: 11;
 }
 
+.experience-designation {
+    font-size: 1.4rem;
+}
+
+.experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
 
 
 
-/*
-.point1, .point2, .point3, .point4 {
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    left: 49.5%;
-    background-color: #b9b9b9;
-    border-radius: 50%;
-    overflow: hidden;
+
+
+
+
+
+
+
+
+
+
+/* colors*/
+.m-blue {
+    color: #2857a4;
 }
 
-.point1 {
-    margin-top: 10%;    
+.mb-blue {
+    background-color: #2857a4;
 }
-.point2 {
-    margin-top: 420px;    
-}
-.point3 {
-    margin-top: 580px;    
-}
-.point4 {
-    margin-top: 750px;    
-}
-*/
 
-/* psuedo */
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
